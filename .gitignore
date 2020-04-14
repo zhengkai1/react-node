@@ -1,0 +1,14 @@
+serve/logs/
+serve/npm-debug.log
+serve/yarn-error.log
+serve/node_modules/
+serve/package-lock.json
+serve/yarn.lock
+serve/coverage/
+serve/.idea/
+serve/run/
+serve/.DS_Store
+serve/*.sw*
+serve/*.un~
+serve/typings/
+serve/.nyc_output/
