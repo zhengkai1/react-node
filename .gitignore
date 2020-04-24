@@ -34,7 +34,7 @@ react-admin/*.log
 react-admin/functions/*
 react-admin/.temp/**
 # umi
-react-admin/.umi
+react-admin/src/.umi
 react-admin/.umi-production
 # screenshot
 react-admin/screenshot
