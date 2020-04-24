@@ -12,3 +12,32 @@ serve/*.sw*
 serve/*.un~
 serve/typings/
 serve/.nyc_output/
+
+
+react-admin/node_modules
+react-admin/src/utils/request-temp.js
+react-admin/_roadhog-api-doc
+react-admin/dist
+react-admin/.vscode
+react-admin/.DS_Store
+react-admin/npm-debug.log*
+react-admin/yarn-error.log
+react-admin/coverage
+react-admin/.idea
+react-admin/yarn.lock
+react-admin/package-lock.json
+react-admin/*bak
+react-admin/.vscode
+# visual studio code
+react-admin/.history
+react-admin/*.log
+react-admin/functions/*
+react-admin/.temp/**
+# umi
+react-admin/.umi
+react-admin/.umi-production
+# screenshot
+react-admin/screenshot
+react-admin/.firebase
+react-admin/.eslintcache
+react-admin/build
