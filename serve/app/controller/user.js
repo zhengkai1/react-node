@@ -13,7 +13,7 @@ class UserController extends Controller {
     if (isJSON(params)) {
       if (!params.username || !params.password) {
         ctx.body = {
-          code: 500,
+          code: 400,
           msg: '用户名或密码不能为空'
         }
       } else {
@@ -25,7 +25,7 @@ class UserController extends Controller {
           };
         }else{
           ctx.body = {
-            code: 200,
+            code: 400,
             msg: '登录失败'
           };
         }

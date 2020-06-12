@@ -38,6 +38,11 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
+  config.cors = {
+    origin: '*',
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+  }
+
   return {
     ...config,
     ...userConfig,
